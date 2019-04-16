@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="217dp"
+        android:id="@+id/ll"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/lihatdata"
+            android:layout_width="match_parent"
+            android:text="Lihat Data"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/tambah"
+            android:text="Tambah Data"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/maps"
+            android:text="Google maps"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll"
+        android:layout_marginLeft="200dp"
+        android:id="@+id/out"
+        android:text="LOGOUT"/>
+
+
+
+
+</RelativeLayout>

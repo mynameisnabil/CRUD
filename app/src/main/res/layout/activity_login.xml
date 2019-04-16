@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".login.login">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etuser"
+        android:hint="Uesrname"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etpass"
+        android:layout_marginTop="10dp"
+        android:hint="Pass"/>
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="INGAT SAYA"
+        android:id="@+id/chklogin"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlog"
+        android:text="LOGIN"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:id="@+id/punya"
+        android:text="Belum Punya akun?"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/daftar"
+        android:layout_marginLeft="50dp"
+        android:text="Register"/>
+
+
+</LinearLayout>
